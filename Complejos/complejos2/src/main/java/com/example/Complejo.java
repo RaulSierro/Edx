@@ -3,8 +3,26 @@ package com.example;
 public class Complejo {
 
 
+    public double getReal() {
+        return real;
+    }
+
+    public void setReal(double real) {
+        this.real = real;
+    }
+
     //declaración de atributos
-    private double real, imaginario;
+    private double real;
+
+    public double getImaginario() {
+        return imaginario;
+    }
+
+    public void setImaginario(double imaginario) {
+        this.imaginario = imaginario;
+    }
+
+    private double imaginario;
 
     //declaración de constructor
     public Complejo(double real, double imaginario) {
